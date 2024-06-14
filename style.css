@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.site{
+display: flex;
+width: 87%;
+background-color: black;
+}
+header{
+    position: sticky;
+}
+#topo{
+    width: 87%;
+}
+
+.site-logo{
+    font-family: "Quicksand";
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+li {
+    list-style-type: none;
+  }
+
+#botao-rosa{
+    width: 300px;
+    justify-content: center;
+    padding: 15px 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #df0e62;
+    border: none;
+    border-radius: 50px;
+    vertical-align: middle;
+    color: white;
+}
+
+.barra{
+    width: 13%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: "Quicksand";
+    text-align: left;
+    position: sticky;
+    
+
+}
+
+ body{
+    display:flex;
+    background-color: black;
+ }
+
+ #topo-welcome{
+    vertical-align: middle;
+    width: 100%;
+    background-image: url(img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Quicksand";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imagens-3{
+    width: 29%;
+    height: 50vh;
+    overflow: hidden;
+    
+}
+.layout-fotos{
+    display: flex;
+    column-count: 3;
+    border-style: solid;
+    border-color: red;
+}
+ #TESTIMONIAL{
+    color: white;
+    text-align: center;
+
+ }
